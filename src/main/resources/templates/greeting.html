@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("background.jpg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+        <div class="w3-col s3">
+            <a href="#" class="w3-button w3-block w3-black">HOME</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#login" class="w3-button w3-block w3-black">LOG IN</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+        </div>
+        <div class="w3-col s3">
+            <a href="#where" class="w3-button w3-block w3-black">JOIN THE NETWORK</a>
+        </div>
+
+    </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+
+    <div class="w3-container w3-grayscale w3-display-middle w3-center">
+        <span class="w3-text-white" style="font-size:90px">NETWOMEN<br></span>
+
+    </div>
+
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+    <!-- Sign in Container -->
+    <div class="w3-container" id="login">
+        <div class="w3-content" style="max-width:700px">
+            <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LOG IN</span></h5>
+            <form action="demo/checkUser" target="_blank">
+                <p><input id="email" class="w3-input w3-padding-16 w3-border" type="text" placeholder="email" required name="email"></p>
+                <p><input id="password" class="w3-input w3-padding-16 w3-border" type="text" placeholder="password" required name="password"></p>
+                <p><button class="w3-button w3-black" type="submit">LOG IN</button></p>
+            </form>
+
+        </div>
+    </div>
+    <!-- About Container -->
+    <div class="w3-container" id="about">
+        <div class="w3-content" style="max-width:700px">
+            <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT NETWOMEN</span></h5>
+            <p>Netwomen is the movement and network that will change your life lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+            <div class="w3-panel w3-leftbar w3-light-grey">
+                <p><i>"Behind every successful woman is a tribe of other successful women that have her back"</i></p>
+                <p>Unknown</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Menu Container -->
+
+    <!-- Contact/Area Container -->
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+        <div class="w3-content" style="max-width:700px">
+            <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">JOIN THE NETWORK</span></h5>
+
+            <p>Sign up:</p>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><button class="w3-button w3-black" type="submit">JOIN NOW</button></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+</body>
+</html>
+
